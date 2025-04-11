@@ -52,3 +52,45 @@ A powerful AI-powered book recommendation system built using **LangChain**, **Ch
 ---
 
 ## 📦 Folder Structure
+
+
+📁 LLM_Book_Recommender
+├── gradio-dashboard.py
+├── rec_streamlit.py
+├── books_with_emotions.csv
+├── tagged_description.txt
+├── assets/
+└── README.md
+
+---
+
+## 🧰 Setup Instructions
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/SubhashGovindharaj/LLM_Book_recommender.git
+cd LLM_Book_recommender
+
+# 2. Create and activate a virtual environment
+conda create -n myenv python=3.11
+conda activate myenv
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the app
+streamlit run rec_streamlit.py
+
+
+🔮 Future Additions
+	•	💬 Chatbot-style recommendation
+	•	🧠 Fine-tune emotion classifier
+	•	🌐 Hugging Face + Streamlit Cloud deployment
+	•	📈 Add recommendation feedback system
+
+⸻
+
+👨‍💻 Author
+
+Subhash Govindharaj
+📧 subhashgovindharaj@gmail.com
